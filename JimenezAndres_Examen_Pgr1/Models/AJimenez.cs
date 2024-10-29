@@ -12,7 +12,7 @@ namespace JimenezAndres_Examen_Pgr1.Models
         [Required(ErrorMessage = "El nombre es obligatorio")]
         public string Nombre { get; set; }
 
-        [Range(0, 1000)]
+        [Range(0, 5000)]
         public float Dinero { get; set; }
 
         [Required]

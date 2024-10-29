@@ -22,7 +22,7 @@
                 <input asp-for="Dinero" class="form-control" />
                 <span asp-validation-for="Dinero" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+            <div class="form-group form-check mt-3">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="MayorEdad" /> @Html.DisplayNameFor(model => model.MayorEdad)
                 </label>
@@ -32,7 +32,7 @@
                 <input asp-for="Cumpleanos" class="form-control" />
                 <span asp-validation-for="Cumpleanos" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group mt-3">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
