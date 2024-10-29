@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:JimenezAndres_Examen_Pgr1Context"
+    }
+  }
+}
